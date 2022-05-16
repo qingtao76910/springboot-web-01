@@ -1,0 +1,8 @@
+#静态资源路径默认前缀修改：修改后当访问静态资源时先要在根目录处加上static再加上static包下的静态资源名称
+
+#过滤器
+spring:
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
